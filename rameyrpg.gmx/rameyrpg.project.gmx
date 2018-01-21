@@ -5,11 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sPlayer</sprite>
+    <sprite>sprites\sWall</sprite>
+  </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\oPlayer</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
